@@ -44,7 +44,6 @@ body{
   color: #fff;
   box-sizing: border-box;
   text-align: left;
-  
 }
 .column{
   display: inline-block;
@@ -52,9 +51,6 @@ body{
   box-sizing: border-box;
   vertical-align: top;
   padding: 5px;;
-  
-  
-  
 }
 
 .bg-white { 
@@ -64,9 +60,7 @@ body{
   padding: 5px;;
   box-sizing:border-box;
   vertical-align: top;
-
   margin: 5px;
-  
 }
 .new-column{
   display: inline-block;
@@ -76,7 +70,5 @@ body{
   padding-top: 5px;
   box-sizing: border-box;
   vertical-align: top;
-  width: 33.33%;
-  
-  
+  width: 33.33%; 
 }
