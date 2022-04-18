@@ -12,6 +12,9 @@ body{
   background-image: url(./../images/beach.jpg);
   background-size: cover;
   background-position: center;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
   height: 100vh;
   color: #926239;
   text-transform: capitalize;
@@ -26,7 +29,17 @@ body{
 .title{
   font-size: 20px;
 }
+.text-overflow {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+} 
 .button {
+  --img-size: 100px;
+  min-width: calc(var(--img-size) * 0.5);
+  width: 50%;
+  max-width: calc(var(--img-size) * 1.5);
+  display: inline-block;
   font-size: 20px;
   padding:8px 15px;
  padding-top: 1px; 
@@ -36,6 +49,7 @@ body{
   color: #926239;;
 }
 .button:hover{
+ 
   background-color:grey;
 }
 
